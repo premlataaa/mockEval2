@@ -1,0 +1,1 @@
+export const baseUrl = "https://curse-turquoise-allosaurus.glitch.me"
