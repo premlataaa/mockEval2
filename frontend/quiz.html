@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+
 </head>
+
 <body>
-    <nav>
-        <div>Mini Quiz App</div>
-        <div>
-            <a href="index.html">Home</a>
-            <a href="quiz.html">Quiz</a>
-            <a href="questions.html">Questions</a>
-        </div>
-    </nav>
 
-    <form action="">
-        <label for="text">text input</label>
-        <input type="text" placeholder="Question statement">
-        <label for="options">Select option</label>
-        <select id="options">
-            <option value="">Option A</option>
-            <option value="">Option B</option>
-            <option value="">Option C</option>
-            <option value="">Option D</option>
+    <div id="nav">
+    </div>
+    <div>
+        <form id="form">
+            <h2>Create Questions Here...</h2>
 
-        </select>
-        <label for="correct answer">correct answer</label>
-        <select name="correct answer" id="correct answer">
-            <option value="">Correct answer</option>
-        </select>
-    </form>
+            <input type="text" placeholder="Enter Problem statement">
+            <input id="optnA" type="text" placeholder="Enter Option A">
+            <input id="optnB" type="text" placeholder="Enter Option B">
+            <input id="optnC" type="text" placeholder="Enter Option C">
+            <input id="optnD" type="text" placeholder="Enter Option D">
+            <select id="select">
+                <option value="">select correct Option</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option <option value="d">D</option>
+
+            </select>
+            <input type="submit" value="Create Question">
+
+        </form>
+    </div>
+
+    <div id="cont"></div>
+
 </body>
+
+<script src="scriptFile/navbar.js"></script>
+<script src="scriptFile/quiz.js" type="module"></script>
+
 </html>

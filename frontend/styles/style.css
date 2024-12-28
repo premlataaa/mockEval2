@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(209, 225, 241);
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 200px;
+    background-color: teal;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+
+#nav-links{
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    margin: 10px;
+}
+#logo{
+    background-color: teal;
+    color: white;
+    margin: 10px;
+}
+
+a:hover{
+    color: teal;
+}
